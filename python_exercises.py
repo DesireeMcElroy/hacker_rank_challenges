@@ -5,7 +5,6 @@
 
 # If-Else
 
-
 # Task
 # Given an integer, , perform the following conditional actions:
 
@@ -37,3 +36,36 @@ def check_number(n):
         print("Invalid")
 
 check_number(4)
+
+
+
+# Loops
+
+# Task
+# The provided code stub reads and integer, , from STDIN. For all non-negative integers , print .
+
+# Constraints
+# 0 <= n <= 20
+
+n = int(input())
+for i in range(0, n):
+    if i > -1 and i < 21:
+        print(i**2)
+
+
+# Division
+
+# Task
+# The provided code stub reads two integers,  and , from STDIN.
+
+# Add logic to print two lines. The first line should contain the 
+# result of integer division,  // . The second line should contain 
+# the result of float division,  / .
+
+a = int(input())
+b = int(input())
+print(a//b)
+print(a/b)
+# outputs
+# 0
+# 0.6
