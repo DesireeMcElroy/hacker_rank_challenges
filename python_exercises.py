@@ -69,3 +69,49 @@ print(a/b)
 # outputs
 # 0
 # 0.6
+
+
+
+
+# Arithmetic Operators
+
+# Task
+# The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
+
+# The first line contains the sum of the two numbers.
+# The second line contains the difference of the two numbers (first - second).
+# The third line contains the product of the two numbers.
+
+# Constraints
+# 1 <= a <= 10**10
+# 1 <= b <= 10**10
+
+a = int(input("Enter a number between 1 and 10**10: "))
+b = int(input("Enter a number between 1 and 10**10: "))
+if 1 <= a <= 10**10 and 1 <= b <= 10**10:
+    print(a+b)
+    print(a-b)
+    print(a*b)
+
+
+
+
+# Print Function
+
+# The included code stub will read an integer, , from STDIN.
+
+# Without using any string methods, try to print the following:
+
+# 123.....n
+
+# Note that "" represents the consecutive values in between.
+
+# Constraints
+# 1 <= n <= 150
+
+n = int(input("Please enter a number between 1 and 150: "))
+if 1 <= n <= 150:
+    number = range(1,n+1)
+    print(*number)
+    
+        
